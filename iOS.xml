@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+    <test name="Android iOS">
+        <parameter name="platformName" value="Android" />
+        <parameter name="udid" value="emulator-5556" />
+        <parameter name="deviceName" value="scotia" />
+        <parameter name="systemPort" value="10001" />
+        <parameter name="chromeDriverPort" value="11001" />
+        <classes>
+            <class name="com.qa.runners.Android1TestNGRunnerTest"/>
+        </classes>
+    </test><!-- AppiumProjectTestNG -->
+
+</suite> <!-- Default Suite -->
