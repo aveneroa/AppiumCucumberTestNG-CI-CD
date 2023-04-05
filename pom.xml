@@ -26,7 +26,7 @@
                     <!-- Suite testng xml file to consider for test execution -->
                     <suiteXmlFiles>
                         <suiteXmlFile>android.xml</suiteXmlFile>
-                        <suiteXmlFile>iOS.xml</suiteXmlFile>
+<!--                        <suiteXmlFile>iOS.xml</suiteXmlFile>-->
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

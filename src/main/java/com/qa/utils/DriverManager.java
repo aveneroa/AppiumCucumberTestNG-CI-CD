@@ -3,7 +3,6 @@ package com.qa.utils;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.ios.IOSDriver;
-
 import java.io.IOException;
 
 public class DriverManager {
