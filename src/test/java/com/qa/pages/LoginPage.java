@@ -21,7 +21,8 @@ public class LoginPage extends BasePage {
 	private WebElement loginBtn;
 	
 	@AndroidFindBy (xpath = "//android.view.ViewGroup[@content-desc=\"test-Error message\"]/android.widget.TextView") 
-	@iOSXCUITFindBy (xpath = "//XCUIElementTypeOther[@name=\"test-Error message\"]/child::XCUIElementTypeStaticText")
+	//@iOSXCUITFindBy (xpath = "//XCUIElementTypeOther[@name=\"test-Error message\"]/child::XCUIElementTypeStaticText")
+	@iOSXCUITFindBy (id = "test-Error message")
 	private WebElement errTxt;
 
 	public LoginPage(){
