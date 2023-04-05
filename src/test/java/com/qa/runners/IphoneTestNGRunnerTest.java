@@ -9,9 +9,9 @@ import io.cucumber.testng.CucumberOptions;
  */
 @CucumberOptions(
         plugin = {"pretty"
-        , "html:target/Device2/cucumber/report.html"
+        , "html:target/Device1/cucumber/report.html"
         , "summary"
-        //, "me.jvt.cucumber.report.PrettyReports:target/Device2/cucumber-html-reports"
+       // , "me.jvt.cucumber.report.PrettyReports:target/Device1/cucumber-html-reports"
         }
         ,features = {"src/test/resources"}
         ,glue = {"com.qa.stepdef"}
@@ -19,6 +19,5 @@ import io.cucumber.testng.CucumberOptions;
         ,monochrome=true
         ,tags = "@test"
         )
-public class Android1TestNGRunnerTest extends RunnerBase {
-
+public class IphoneTestNGRunnerTest extends RunnerBase {
 }

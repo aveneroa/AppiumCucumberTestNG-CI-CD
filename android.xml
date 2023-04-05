@@ -8,7 +8,7 @@
         <parameter name="systemPort" value="10000" />
         <parameter name="chromeDriverPort" value="11000" />
         <classes>
-            <class name="com.qa.runners.Android1TestNGRunnerTest"/>
+            <class name="com.qa.runners.AndroidTestNGRunnerTest"/>
         </classes>
     </test><!-- AppiumProjectTestNG -->
 
@@ -19,7 +19,7 @@
         <parameter name="systemPort" value="10001" />
         <parameter name="chromeDriverPort" value="11001" />
         <classes>
-            <class name="com.qa.runners.AndroidTestNGRunnerTest"/>
+            <class name="com.qa.runners.IphoneTestNGRunnerTest"/>
         </classes>
     </test><!-- AppiumProjectTestNG -->
 
