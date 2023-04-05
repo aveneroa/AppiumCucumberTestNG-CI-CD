@@ -1,4 +1,4 @@
-@test
+
 Feature: Login scenarios
 
   Scenario Outline: Login with invalid user name
@@ -9,7 +9,7 @@ Feature: Login scenarios
     Examples:
       | username | password | err |
       | invalidUsername | secret_sauce | Username and password do not match any user in this service. |
-
+  @test
   Scenario Outline: Login with invalid password
     When I enter username as "<username>"
     And I enter password as "<password>"
