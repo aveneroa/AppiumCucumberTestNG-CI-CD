@@ -30,7 +30,7 @@ public class CapabilitiesManager {
                     String androidAppUrl = System.getProperty("user.dir") + File.separator + "src" + File.separator + "test"
                             + File.separator + "resources" + File.separator + "apps" + File.separator + "Android.SauceLabs.Mobile.Sample.app.2.7.1.apk";
                     caps.setCapability("app", androidAppUrl);
-                    utils.log().info("The "+ params.getPlatformName() + "appUrl is" + androidAppUrl);
+                    utils.log().info("The " + params.getPlatformName() + " appUrl is" + androidAppUrl);
                     break;
                 case "iOS":
                     caps.setCapability(MobileCapabilityType.AUTOMATION_NAME, props.getProperty("iOSAutomationName"));
@@ -41,7 +41,7 @@ public class CapabilitiesManager {
                     String iOSAppUrl = System.getProperty("user.dir") + File.separator + "src" + File.separator + "test"
                             + File.separator + "resources" + File.separator + "apps" + File.separator + "SwagLabsMobileApp.app";
                     caps.setCapability("app", iOSAppUrl);
-                    utils.log().info("The "+ params.getPlatformName() + "appUrl is" + iOSAppUrl);
+                    utils.log().info("The " + params.getPlatformName() + " appUrl is" + iOSAppUrl);
                     break;
             }
             return caps;
